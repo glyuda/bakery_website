@@ -1516,10 +1516,10 @@ pre {
       width: 750px; } }
   @media (min-width: 992px) {
     .container {
-      width: 970px; } }
+      width: 1070px; } }
   @media (min-width: 1200px) {
     .container {
-      width: 1170px; } }
+      width: 1270px; } }
 
 .container-fluid {
   margin-right: auto;
@@ -5798,3 +5798,85 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+@font-face {
+  font-family: 'scriptinaregular';
+  src: url("fonts/scriptina-webfont.woff2") format("woff2"), url("fonts/scriptina-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'alegreyaregular';
+  src: url("fonts/alegreya-regular-webfont.woff2") format("woff2"), url("fonts/alegreya-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'alegreyabold';
+  src: url("fonts/alegreya-bold-webfont.woff2") format("woff2"), url("fonts/alegreya-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'playfair_displaybold';
+  src: url("fonts/playfairdisplay-bold-webfont.woff2") format("woff2"), url("fonts/playfairdisplay-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.page-wrapper {
+  width: 1600px; }
+
+header {
+  min-height: 900px;
+  background-image: url("../images/backgrounds/header-bg.png");
+  background-size: 100%; }
+  header .top-header {
+    min-height: 70px;
+    background-color: rgba(86, 83, 76, 0.53);
+    color: #fff; }
+    header .top-header .logo {
+      display: block;
+      padding-left: 6px;
+      line-height: 60px;
+      font-family: 'scriptinaregular';
+      font-size: 30px;
+      letter-spacing: 9px;
+      text-align: left; }
+    header .top-header nav ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+      header .top-header nav ul li {
+        display: inline-block;
+        padding: 0 7px; }
+        header .top-header nav ul li a {
+          font-family: 'alegreyaregular';
+          font-size: 14px;
+          letter-spacing: 4px;
+          color: #fff;
+          line-height: 70px;
+          text-transform: uppercase;
+          display: block;
+          padding: 0 0 0 17px; }
+          header .top-header nav ul li a:after {
+            content: '\007E';
+            padding: 0 0 0 37px; }
+        header .top-header nav ul li:nth-child(5) a:after {
+          content: '';
+          padding: 0; }
+    header .top-header .social-networks {
+      line-height: 70px;
+      float: right; }
+      header .top-header .social-networks span {
+        display: inline-block;
+        height: 17px;
+        width: 17px;
+        vertical-align: middle;
+        padding: 0 13px;
+        background-image: url("../images/icons/header-social-networks-iconset.png"); }
+      header .top-header .social-networks .twitter-icon {
+        background-position: 0 17px; }
+      header .top-header .social-networks .facebook-icon {
+        background-position: -20px 17px; }
+      header .top-header .social-networks .instagram-icon {
+        background-position: -44px 17px; }

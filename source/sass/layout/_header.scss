@@ -1,0 +1,91 @@
+header {
+  min-height: 900px;
+  background-image: url('../images/backgrounds/header-bg.png');
+  background-size: 100%;
+
+  .top-header {
+    min-height: 70px;
+    background-color: rgba(86, 83, 76, 0.53);
+
+    color: #fff;
+
+    .logo {
+      display: block;
+      padding-left: 6px;
+      line-height: 60px;
+
+      font-family: 'scriptinaregular';
+      font-size: 30px;
+      letter-spacing: 9px;
+      text-align: left;
+    }
+
+    nav {
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        li {
+          display: inline-block;
+          padding: 0 7px;
+
+          a {
+            font-family: 'alegreyaregular';
+            font-size: 14px;
+            letter-spacing: 4px;
+            color: #fff;
+            line-height: 70px;
+            text-transform: uppercase;
+
+            display: block;
+            padding: 0 0 0 17px;
+
+            &:after {
+              content: '\007E';
+              padding: 0 0 0 37px;
+            }
+          }
+
+          &:nth-child(5) {
+            a:after {
+              content: '';
+              padding: 0;
+            }
+          }
+        }
+      }
+
+    }
+
+    .social-networks {
+      line-height: 70px;
+      float: right;
+
+      span {
+        display: inline-block;
+        height: 17px;
+        width: 17px;
+        vertical-align: middle;
+        padding: 0 13px;
+
+        background-image: url('../images/icons/header-social-networks-iconset.png');
+      }
+
+      .twitter-icon {
+        background-position: 0 17px;
+      }
+
+      .facebook-icon {
+        background-position: -20px 17px;
+      }
+
+      .instagram-icon {
+        background-position: -44px 17px;
+      }
+    }
+  }
+
+
+}
