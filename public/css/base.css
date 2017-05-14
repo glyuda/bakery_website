@@ -5823,17 +5823,28 @@ button.close {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'proxima_nova_rgregular';
+  src: url("fonts/proximanova-regular-webfont.woff2") format("woff2"), url("fonts/proximanova-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 .page-wrapper {
   width: 1600px; }
+  .page-wrapper h1 {
+    font-family: 'playfair_displaybold';
+    font-size: 92px;
+    color: #fff; }
 
 header {
   min-height: 900px;
+  position: relative;
   background-image: url("../images/backgrounds/header-bg.png");
-  background-size: 100%; }
+  background-size: 100%;
+  color: #fff; }
   header .top-header {
     min-height: 70px;
-    background-color: rgba(86, 83, 76, 0.53);
-    color: #fff; }
+    background-color: rgba(86, 83, 76, 0.53); }
     header .top-header .logo {
       display: block;
       padding-left: 6px;
@@ -5852,8 +5863,8 @@ header {
         header .top-header nav ul li a {
           font-family: 'alegreyaregular';
           font-size: 14px;
-          letter-spacing: 4px;
           color: #fff;
+          letter-spacing: 4px;
           line-height: 70px;
           text-transform: uppercase;
           display: block;
@@ -5880,3 +5891,42 @@ header {
         background-position: -20px 17px; }
       header .top-header .social-networks .instagram-icon {
         background-position: -44px 17px; }
+  header h1 {
+    padding: 180px 0 50px;
+    text-align: center;
+    letter-spacing: 6px; }
+  header .header-divider {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    height: 12px;
+    width: 190px;
+    background-image: url("../images/content/header-divider.png");
+    background-repeat: no-repeat; }
+  header p {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    text-align: center;
+    padding-bottom: 53px; }
+  header .our-menu-button {
+    height: 50px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(86, 83, 76, 0.53);
+    border: 1px dashed #9e9c93;
+    font-family: 'alegreyabold';
+    font-size: 14px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px; }
+  header .header-bottom-border {
+    background-image: url("../images/content/header-bottom-border.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 110px;
+    width: 100%;
+    bottom: -55px; }
