@@ -5835,6 +5835,24 @@ button.close {
     font-family: 'playfair_displaybold';
     font-size: 92px;
     color: #fff; }
+  .page-wrapper h3 {
+    font-family: 'alegreyabold';
+    font-size: 24px;
+    line-height: 30px;
+    color: #56534c; }
+  .page-wrapper p {
+    font-family: 'proxima_nova_rgregular'; }
+  .page-wrapper .section-header {
+    font-family: 'alegreyabold';
+    text-align: center; }
+    .page-wrapper .section-header h2 {
+      font-size: 48px;
+      color: #56534c; }
+    .page-wrapper .section-header h4 {
+      font-size: 14px;
+      line-height: 30px;
+      color: #a47d5e;
+      text-transform: uppercase; }
 
 header {
   min-height: 900px;
@@ -5904,7 +5922,6 @@ header {
     background-image: url("../images/content/header-divider.png");
     background-repeat: no-repeat; }
   header p {
-    font-family: 'proxima_nova_rgregular';
     font-size: 24px;
     letter-spacing: 1px;
     line-height: 36px;
@@ -5930,3 +5947,85 @@ header {
     height: 110px;
     width: 100%;
     bottom: -55px; }
+
+.art-of-cakes {
+  padding-top: 110px;
+  background-image: url("../images/backgrounds/art-of-cakes-bg.png");
+  background-repeat: no-repeat; }
+  .art-of-cakes .left-part {
+    padding-bottom: 100px; }
+    .art-of-cakes .left-part .section-header {
+      margin-bottom: 60px; }
+    .art-of-cakes .left-part p {
+      font-size: 14px;
+      line-height: 24px;
+      color: #56534c;
+      text-align: center;
+      letter-spacing: 2px;
+      margin-bottom: 40px; }
+    .art-of-cakes .left-part .chef-info h3 {
+      text-align: center;
+      margin-bottom: 40px; }
+    .art-of-cakes .left-part .chef-info .chef-cook-photo {
+      display: block;
+      margin: 0 auto;
+      width: 126px;
+      height: 126px;
+      background-image: url("../images/content/artofcakes-chef-cook-image.png");
+      font-family: 'alegreyaregular';
+      font-size: 24px;
+      line-height: 60px;
+      color: #56534c; }
+      .art-of-cakes .left-part .chef-info .chef-cook-photo:before {
+        content: 'Benito';
+        text-align: center;
+        position: absolute;
+        margin-top: 33px;
+        margin-left: -130px;
+        width: 110px;
+        height: 60px;
+        border-top: 1px solid #d7d5ca;
+        border-bottom: 1px solid #d7d5ca; }
+      .art-of-cakes .left-part .chef-info .chef-cook-photo:after {
+        content: 'Gaspare';
+        text-align: center;
+        position: absolute;
+        margin-top: 33px;
+        margin-left: 145px;
+        width: 110px;
+        height: 60px;
+        border-top: 1px solid #d7d5ca;
+        border-bottom: 1px solid #d7d5ca; }
+    .art-of-cakes .left-part .chef-info .quote {
+      display: block;
+      width: 350px;
+      margin: 0 auto;
+      padding: 0 45px;
+      font-family: 'scriptinaregular';
+      font-size: 24px;
+      line-height: 30px;
+      color: #a47d5e;
+      text-align: center;
+      letter-spacing: 1px; }
+      .art-of-cakes .left-part .chef-info .quote:before {
+        content: "“";
+        font-family: 'Times New Roman';
+        font-size: 60px;
+        color: #56534c;
+        float: left;
+        margin-left: -84px; }
+      .art-of-cakes .left-part .chef-info .quote:after {
+        content: "\201e";
+        font-family: 'Times New Roman';
+        font-size: 60px;
+        color: #56534c;
+        float: right;
+        margin-right: -84px; }
+  .art-of-cakes .right-part {
+    padding-top: 110px; }
+    .art-of-cakes .right-part .top-image {
+      position: absolute;
+      left: 31%;
+      top: 38%; }
+      .art-of-cakes .right-part .top-image img {
+        opacity: 0.95; }
