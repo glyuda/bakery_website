@@ -6022,10 +6022,41 @@ header {
         float: right;
         margin-right: -84px; }
   .art-of-cakes .right-part {
-    padding-top: 110px; }
+    padding-top: 40px; }
     .art-of-cakes .right-part .top-image {
       position: absolute;
       left: 31%;
       top: 38%; }
       .art-of-cakes .right-part .top-image img {
         opacity: 0.95; }
+
+.tasty-pancakes {
+  min-height: 760px;
+  background-image: url("../images/backgrounds/tasty-pancakes-bg.png");
+  background-repeat: no-repeat;
+  padding-top: 140px; }
+  .tasty-pancakes .food-widget {
+    background-image: url("../images/backgrounds/tasty-pancakes-description-bg.png");
+    background-repeat: no-repeat;
+    height: 512px;
+    width: 965px; }
+    .tasty-pancakes .food-widget .description {
+      width: 400px;
+      margin-left: 475px;
+      margin-top: 65px; }
+      .tasty-pancakes .food-widget .description .section-header {
+        text-align: left;
+        padding-bottom: 50px; }
+      .tasty-pancakes .food-widget .description p {
+        color: #56534c;
+        padding-bottom: 100px; }
+      .tasty-pancakes .food-widget .description .windmill {
+        background-image: url("../images/content/tasty-pancakes-windmill.png");
+        background-repeat: no-repeat;
+        display: block;
+        width: 261px;
+        height: 294px;
+        margin: 0;
+        position: absolute;
+        right: 0;
+        bottom: 0; }
